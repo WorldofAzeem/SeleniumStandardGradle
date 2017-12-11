@@ -7,7 +7,7 @@ public class SeleniumTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\world_000\\Documents\\tools\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
 		
 		WebDriver driver=new ChromeDriver();
 		
